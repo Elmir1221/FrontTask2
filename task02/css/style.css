@@ -1,0 +1,155 @@
+
+/* header css */
+.navbar{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(6, 166, 113);
+}
+
+.navbar .search{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.navbar .search .search-btn{
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 9px;
+    width: 84px;
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.navbar .search .search-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar .search input{
+    width: 315px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.navbar .nav-items ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-items ul li{
+    margin-left: 10px;
+}
+
+.navbar .nav-items ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/* main css */
+#product .box .item{
+    width: 300px;
+    height: 420px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 10px 5px 5px red;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#product .box .item.product1{
+    background-color: goldenrod
+}
+
+#product .box .item.product2{
+    background-color: blueviolet
+}
+
+#product .box .item h1{
+    text-align: center;
+    color: white;
+}
+
+#product .box .item p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#product .box .item button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+#product .box .item .add-to-cart{
+    display: flex;
+    justify-content: center;
+}
+
+#product .box .item.product1:hover{
+    background-color: rgb(60, 123, 212);
+    box-shadow: 10px 5px 5px greenyellow;
+}
+
+#product .box .item.product2:hover{
+    background-color: rgb(83, 212, 60);
+    box-shadow: 10px 5px 5px magenta;
+}
+
+#product .box .item.product1:hover p{
+    color: black;
+}
+
+#product .box .item.product2:hover p{
+    color: black;
+}
+
+#product .box .item.product1:hover h1{
+    color: black;
+}
+
+#product .box .item.product2:hover h1{
+    color: black;
+}
+
+#product .box .item:hover button{
+    background-color: greenyellow;
+    color: black;
+}
+.btn{
+    
+        margin: 10% 20% 0 45%;
+        background-color: rgb(1, 102, 133);
+        color: azure;
+
+}
+.text2{
+    background-color: rgb(11, 177, 77);
+    color: azure;
+}
+.text2 h2{
+    text-align: center;
+}
